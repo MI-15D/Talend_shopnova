@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_KsLNkOgLEfGbI7x8PTgNkQ" name="caisse" dataPackage="_KsRUMOgLEfGbI7x8PTgNkQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/WKJG8403/Downloads/caisses/caisses_M40_20260322.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_KsRUMOgLEfGbI7x8PTgNkQ" name="default" dataManager="_KsLNkOgLEfGbI7x8PTgNkQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_KsRUMegLEfGbI7x8PTgNkQ" id="_9jCNEOgKEfGbI7x8PTgNkQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KsRUMugLEfGbI7x8PTgNkQ" label="ticket_id" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KsRUM-gLEfGbI7x8PTgNkQ" label="ligne_num" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KsRUNOgLEfGbI7x8PTgNkQ" label="date_txt" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KsRUNegLEfGbI7x8PTgNkQ" label="heure" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KsRUNugLEfGbI7x8PTgNkQ" label="magasin_id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KsRUN-gLEfGbI7x8PTgNkQ" label="ville" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KsRUOOgLEfGbI7x8PTgNkQ" label="client_id" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KsRUOegLEfGbI7x8PTgNkQ" label="produit_id" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KsRUOugLEfGbI7x8PTgNkQ" label="quantite" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KsRUO-gLEfGbI7x8PTgNkQ" label="prix_unitaire" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KsRUPOgLEfGbI7x8PTgNkQ" label="remise_pct" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
