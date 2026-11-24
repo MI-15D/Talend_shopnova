@@ -1,0 +1,38 @@
+{
+  "itemId" : "_-kuyYOQfEfGUCuQaBPSu0Q",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_1_g2oOgdEfGnDreic5kFcw",
+    "parameterList" : [ {
+      "id" : "_1_204egdEfGnDreic5kFcw",
+      "name" : "test_try_cnx_snow_password"
+    }, {
+      "id" : "_1_204ugdEfGnDreic5kFcw",
+      "name" : "test_try_cnx_snow_role"
+    }, {
+      "id" : "_1_204-gdEfGnDreic5kFcw",
+      "name" : "test_try_cnx_snow_jdbcParameters"
+    }, {
+      "id" : "_1_205OgdEfGnDreic5kFcw",
+      "name" : "test_try_cnx_snow_warehouse"
+    }, {
+      "id" : "_1_205egdEfGnDreic5kFcw",
+      "name" : "test_try_cnx_snow_loginTimeout"
+    }, {
+      "id" : "_1_205ugdEfGnDreic5kFcw",
+      "name" : "test_try_cnx_snow_account"
+    }, {
+      "id" : "_1_205-gdEfGnDreic5kFcw",
+      "name" : "test_try_cnx_snow_jdbcUrlSuffix"
+    }, {
+      "id" : "_1_206OgdEfGnDreic5kFcw",
+      "name" : "test_try_cnx_snow_database"
+    }, {
+      "id" : "_1_206egdEfGnDreic5kFcw",
+      "name" : "test_try_cnx_snow_userId"
+    }, {
+      "id" : "_1_206ugdEfGnDreic5kFcw",
+      "name" : "test_try_cnx_snow_dbSchema"
+    } ]
+  } ]
+}
