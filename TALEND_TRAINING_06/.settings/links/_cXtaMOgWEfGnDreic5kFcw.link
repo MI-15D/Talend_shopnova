@@ -5,34 +5,34 @@
     "repoId" : "_1_g2oOgdEfGnDreic5kFcw",
     "parameterList" : [ {
       "id" : "_1_204egdEfGnDreic5kFcw",
-      "name" : "test_try_cnx_snow_password"
+      "name" : "CNX_SNOWFLAKE_password"
     }, {
       "id" : "_1_204ugdEfGnDreic5kFcw",
-      "name" : "test_try_cnx_snow_role"
+      "name" : "CNX_SNOWFLAKE_role"
     }, {
       "id" : "_1_204-gdEfGnDreic5kFcw",
-      "name" : "test_try_cnx_snow_jdbcParameters"
+      "name" : "CNX_SNOWFLAKE_jdbcParameters"
     }, {
       "id" : "_1_205OgdEfGnDreic5kFcw",
-      "name" : "test_try_cnx_snow_warehouse"
+      "name" : "CNX_SNOWFLAKE_warehouse"
     }, {
       "id" : "_1_205egdEfGnDreic5kFcw",
-      "name" : "test_try_cnx_snow_loginTimeout"
+      "name" : "CNX_SNOWFLAKE_loginTimeout"
     }, {
       "id" : "_1_205ugdEfGnDreic5kFcw",
-      "name" : "test_try_cnx_snow_account"
+      "name" : "CNX_SNOWFLAKE_account"
     }, {
       "id" : "_1_205-gdEfGnDreic5kFcw",
-      "name" : "test_try_cnx_snow_jdbcUrlSuffix"
+      "name" : "CNX_SNOWFLAKE_jdbcUrlSuffix"
     }, {
       "id" : "_1_206OgdEfGnDreic5kFcw",
-      "name" : "test_try_cnx_snow_database"
+      "name" : "CNX_SNOWFLAKE_database"
     }, {
       "id" : "_1_206egdEfGnDreic5kFcw",
-      "name" : "test_try_cnx_snow_userId"
+      "name" : "CNX_SNOWFLAKE_userId"
     }, {
       "id" : "_1_206ugdEfGnDreic5kFcw",
-      "name" : "test_try_cnx_snow_dbSchema"
+      "name" : "CNX_SNOWFLAKE_dbSchema"
     } ]
   } ]
 }
