@@ -34,5 +34,12 @@
       "id" : "_1_205OgdEfGnDreic5kFcw",
       "name" : "CNX_SNOWFLAKE_warehouse"
     } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_0T88YOjQEfGoM9dPTiOdXg",
+    "parameterList" : [ {
+      "id" : "_0UWlAejQEfGoM9dPTiOdXg",
+      "name" : "directory_file"
+    } ]
   } ]
 }

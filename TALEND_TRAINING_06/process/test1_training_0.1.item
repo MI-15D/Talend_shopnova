@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="CNX_SNOWFLAKE_account" prompt="CNX_SNOWFLAKE_account?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="JZDBGNQ-JD66091" internalId="_Kid2sOi1EfGnDreic5kFcw"/>
-    <contextParameter comment="" name="CNX_SNOWFLAKE_database" prompt="CNX_SNOWFLAKE_database?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="talend_training" internalId="_Kid2sei1EfGnDreic5kFcw"/>
-    <contextParameter comment="" name="CNX_SNOWFLAKE_dbSchema" prompt="CNX_SNOWFLAKE_dbSchema?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="public" internalId="_Kid2sui1EfGnDreic5kFcw"/>
+    <contextParameter comment="" name="CNX_SNOWFLAKE_account" prompt="CNX_SNOWFLAKE_account?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="" internalId="_Kid2sOi1EfGnDreic5kFcw"/>
+    <contextParameter comment="" name="CNX_SNOWFLAKE_database" prompt="CNX_SNOWFLAKE_database?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="" internalId="_Kid2sei1EfGnDreic5kFcw"/>
+    <contextParameter comment="" name="CNX_SNOWFLAKE_dbSchema" prompt="CNX_SNOWFLAKE_dbSchema?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="" internalId="_Kid2sui1EfGnDreic5kFcw"/>
     <contextParameter comment="" name="CNX_SNOWFLAKE_jdbcParameters" prompt="CNX_SNOWFLAKE_jdbcParameters?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="" internalId="_Kid2s-i1EfGnDreic5kFcw"/>
-    <contextParameter comment="" name="CNX_SNOWFLAKE_jdbcUrlSuffix" prompt="CNX_SNOWFLAKE_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value=".snowflakecomputing.com" internalId="_Kid2tOi1EfGnDreic5kFcw"/>
-    <contextParameter comment="" name="CNX_SNOWFLAKE_loginTimeout" prompt="CNX_SNOWFLAKE_loginTimeout?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="15" internalId="_Kid2tei1EfGnDreic5kFcw"/>
-    <contextParameter comment="" name="CNX_SNOWFLAKE_password" prompt="CNX_SNOWFLAKE_password?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_Password" value="enc:system.encryption.key.v1:DilmTE4NxX6BSB6zqGn+Cj+sITbFvcy4l9+2Cz+teVqxleBZk0+/gISpwQ==" internalId="_KiedwOi1EfGnDreic5kFcw"/>
+    <contextParameter comment="" name="CNX_SNOWFLAKE_jdbcUrlSuffix" prompt="CNX_SNOWFLAKE_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="" internalId="_Kid2tOi1EfGnDreic5kFcw"/>
+    <contextParameter comment="" name="CNX_SNOWFLAKE_loginTimeout" prompt="CNX_SNOWFLAKE_loginTimeout?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="60" internalId="_Kid2tei1EfGnDreic5kFcw"/>
+    <contextParameter comment="" name="CNX_SNOWFLAKE_password" prompt="CNX_SNOWFLAKE_password?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_Password" value="" internalId="_KiedwOi1EfGnDreic5kFcw"/>
     <contextParameter comment="" name="CNX_SNOWFLAKE_role" prompt="CNX_SNOWFLAKE_role?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="" internalId="_Kiedwei1EfGnDreic5kFcw"/>
-    <contextParameter comment="" name="CNX_SNOWFLAKE_userId" prompt="CNX_SNOWFLAKE_userId?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="FORMATIONDATA" internalId="_Kiedwui1EfGnDreic5kFcw"/>
+    <contextParameter comment="" name="CNX_SNOWFLAKE_userId" prompt="CNX_SNOWFLAKE_userId?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="" internalId="_Kiedwui1EfGnDreic5kFcw"/>
     <contextParameter comment="" name="CNX_SNOWFLAKE_warehouse" prompt="CNX_SNOWFLAKE_warehouse?" promptNeeded="false" repositoryContextId="_1_g2oOgdEfGnDreic5kFcw" type="id_String" value="" internalId="_Kiedw-i1EfGnDreic5kFcw"/>
+    <contextParameter comment="" name="directory_file" prompt="directory_file?" promptNeeded="false" repositoryContextId="_0T88YOjQEfGoM9dPTiOdXg" type="id_String" value="" internalId="_IQzoMOjYEfGoM9dPTiOdXg"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -122,8 +123,6 @@
     <elementParameter field="TEXT" name="HELP" value="org.talend.help.tFileInputDelimited" show="false"/>
     <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
     <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\WKJG8403\Downloads\Talend-Studio-20250226_1030-V8.0.1\configuration\lib\java" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_Kr0BMOgLEfGbI7x8PTgNkQ" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
@@ -543,6 +542,36 @@
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
   </node>
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="520">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tFileList" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="File/Management|Orchestration" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tFileList" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\WKJG8403\Downloads\Talend-Studio-20250226_1030-V8.0.1\configuration\lib\java" show="false"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.directory_file"/>
+    <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+    <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
+    <elementParameter field="CHECK" name="ERROR" value="false"/>
+    <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+    <elementParameter field="TABLE" name="FILES"/>
+    <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+    <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
+    <elementParameter field="TEXT" name="EXCLUDEFILEMASK" value="&quot;*.txt&quot;" show="false"/>
+    <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_3" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_3" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
@@ -603,6 +632,11 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>

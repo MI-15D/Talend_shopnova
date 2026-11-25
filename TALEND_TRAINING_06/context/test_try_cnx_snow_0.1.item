@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_1_204OgdEfGnDreic5kFcw" confirmationNeeded="false" hide="false" name="Default">
-  <contextParameter xmi:id="_1_204egdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_password" prompt="CNX_SNOWFLAKE_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:8F4NP64ZcSSUrrJ9EmDuqBXt7dKSDb8tvukbza/RyueFHrpcJ00vxuNqyA=="/>
+  <contextParameter xmi:id="_1_204egdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_password" prompt="CNX_SNOWFLAKE_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
   <contextParameter xmi:id="_1_204ugdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_role" prompt="CNX_SNOWFLAKE_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   <contextParameter xmi:id="_1_204-gdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_jdbcParameters" prompt="CNX_SNOWFLAKE_jdbcParameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   <contextParameter xmi:id="_1_205OgdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_warehouse" prompt="CNX_SNOWFLAKE_warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-  <contextParameter xmi:id="_1_205egdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_loginTimeout" prompt="CNX_SNOWFLAKE_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="15"/>
-  <contextParameter xmi:id="_1_205ugdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_account" prompt="CNX_SNOWFLAKE_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="JZDBGNQ-JD66091"/>
-  <contextParameter xmi:id="_1_205-gdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_jdbcUrlSuffix" prompt="CNX_SNOWFLAKE_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=".snowflakecomputing.com"/>
-  <contextParameter xmi:id="_1_206OgdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_database" prompt="CNX_SNOWFLAKE_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_training"/>
-  <contextParameter xmi:id="_1_206egdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_userId" prompt="CNX_SNOWFLAKE_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FORMATIONDATA"/>
-  <contextParameter xmi:id="_1_206ugdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_dbSchema" prompt="CNX_SNOWFLAKE_dbSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="public"/>
+  <contextParameter xmi:id="_1_205egdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_loginTimeout" prompt="CNX_SNOWFLAKE_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="60"/>
+  <contextParameter xmi:id="_1_205ugdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_account" prompt="CNX_SNOWFLAKE_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_1_205-gdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_jdbcUrlSuffix" prompt="CNX_SNOWFLAKE_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_1_206OgdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_database" prompt="CNX_SNOWFLAKE_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_1_206egdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_userId" prompt="CNX_SNOWFLAKE_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_1_206ugdEfGnDreic5kFcw" comment="" name="CNX_SNOWFLAKE_dbSchema" prompt="CNX_SNOWFLAKE_dbSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
 </talendfile:ContextType>
