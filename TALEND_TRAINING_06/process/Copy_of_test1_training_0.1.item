@@ -312,17 +312,17 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="Sortievalide">
-        <mapperTableEntries name="ticket_id" expression="row4.ticket_id == null ? null : row4.ticket_id.longValue()&#xA;" type="id_Long"/>
-        <mapperTableEntries name="ligne_num" expression="Integer.valueOf(row4.ligne_num)  " type="id_Integer"/>
-        <mapperTableEntries name="date_txt" expression="TalendDate.parseDate(&quot;dd/MM/yyyy&quot;, row4.date_txt)  " type="id_Date" nullable="true"/>
-        <mapperTableEntries name="heure" expression="row4.heure " type="id_String" nullable="true"/>
-        <mapperTableEntries name="magasin_id" expression="Integer.valueOf(row4.magasin_id)  " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="ville" expression="StringHandling.UPCASE(row4.ville.trim())  " type="id_String"/>
-        <mapperTableEntries name="client_id" expression="Relational.ISNULL(row1.client_id) || row1.client_id.isEmpty() ? null : Long.valueOf(row4.client_id) " type="id_Long" nullable="true"/>
-        <mapperTableEntries name="produit_id" expression="Integer.valueOf(row4.produit_id)" type="id_Integer"/>
-        <mapperTableEntries name="quantite" expression="Integer.valueOf(row4.quantite)" type="id_Integer"/>
-        <mapperTableEntries name="prix_unitaire" expression="new BigDecimal(row4.prix_unitaire.replace(&quot;,&quot;, &quot;.&quot;))" type="id_BigDecimal"/>
-        <mapperTableEntries name="remise_pct" expression="Integer.valueOf(row4.remise_pct)" type="id_Integer"/>
+        <mapperTableEntries name="ticket_id" expression="row1.ticket_id == null ? null : row1.ticket_id.longValue() " type="id_Long"/>
+        <mapperTableEntries name="ligne_num" expression="Integer.valueOf(row1.ligne_num)  " type="id_Integer"/>
+        <mapperTableEntries name="date_txt" expression="TalendDate.parseDate(&quot;dd/MM/yyyy&quot;, row1.date_txt)  " type="id_Date" nullable="true"/>
+        <mapperTableEntries name="heure" expression="row1.heure " type="id_String" nullable="true"/>
+        <mapperTableEntries name="magasin_id" expression="Integer.valueOf(row1.magasin_id)  " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ville" expression="StringHandling.UPCASE(row1.ville.trim())  " type="id_String"/>
+        <mapperTableEntries name="client_id" expression="Relational.ISNULL(row1.client_id) || row1.client_id.isEmpty() ? null : Long.valueOf(row1.client_id) " type="id_Long" nullable="true"/>
+        <mapperTableEntries name="produit_id" expression="Integer.valueOf(row1.produit_id)" type="id_Integer"/>
+        <mapperTableEntries name="quantite" expression="Integer.valueOf(row1.quantite)" type="id_Integer"/>
+        <mapperTableEntries name="prix_unitaire" expression="new BigDecimal(row1.prix_unitaire.replace(&quot;,&quot;, &quot;.&quot;))" type="id_BigDecimal"/>
+        <mapperTableEntries name="remise_pct" expression="Integer.valueOf(row1.remise_pct)" type="id_Integer"/>
         <mapperTableEntries name="fichier_source" expression="((String)globalMap.get(&quot;tFileList_2_CURRENT_FILE&quot;))" type="id_String" nullable="true"/>
         <mapperTableEntries name="date" expression="TalendDate.getCurrentDate() " type="id_Date" nullable="true"/>
       </outputTables>
